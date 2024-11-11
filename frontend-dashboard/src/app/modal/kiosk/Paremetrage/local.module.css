@@ -1,0 +1,398 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+.darkBG {
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  position: fixed;
+}
+.centered {
+  position: fixed;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 200;
+}
+.modal {
+  width: 753px;
+  height: 560px;
+  background: white;
+  color: white;
+}
+.modalHeader {
+  height: 50px;
+  overflow: hidden;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+.heading {
+  margin: 0;
+  padding: 10px;
+  color: #2c3e50;
+  text-align: left;
+  font: normal normal bold 16px/21px Segoe UI;
+  letter-spacing: 0px;
+  color: #000000;
+  text-transform: uppercase;
+  opacity: 1;
+}
+.modalContent {
+  padding: 10px;
+  font-size: 14px;
+  height: 550px;
+  color: #2c3e50;
+}
+.modalActions {
+  position: absolute;
+  bottom: 2px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.actionsContainer {
+  display: flex;
+  justify-content: space-between;
+
+}
+.menusurf{
+  position: relative;
+  top: 8px;
+  left: 10px;
+  width: 61px;
+  height: 53px;
+  background: #323333 0% 0% no-repeat padding-box;
+  border-radius: 21px;
+opacity: 1;
+}
+.menu{
+position: relative;
+left: 10%;
+top: 4px;
+  color: #ffffff;
+  font-size: 50px;
+}
+.closeBtn {
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  cursor: pointer;
+  color: #2c3e50;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.deleteBtn {
+  position: relative;
+  left: 26%;
+  margin-top: 10px;
+  cursor: pointer;
+  font: normal normal 600 16px/21px Segoe UI;
+  padding: 11px 28px;
+  border-radius: 12px;
+  border: none;
+  color: #000000;
+  background: #e2e2e2;
+  transition: all 0.25s ease;
+}
+.deleteBtn:hover {
+  box-shadow: none;
+  transform: none;
+  background: #ff3e4e;
+}
+.cancelBtn {
+  margin-top: 10px;
+  margin-right: 20px;
+  cursor: pointer;
+  font: normal normal 600 16px/21px Segoe UI;
+  padding: 11px 28px;
+  border-radius: 12px;
+  border: none;
+  color: #ffffff;
+  background: #000000;
+  transition: all 0.25s ease;
+}
+.cancelBtn:hover {
+  box-shadow: none;
+  transform: none;
+  background: rgb(85, 143, 38);
+}
+
+/****************************sidebar***************************/
+
+
+
+.sidebar {
+  position: fixed;
+  left: 20;
+  height: 440px;
+  width: 170px;
+  background: #323333 0% 0% no-repeat padding-box;
+  transition: all 0.5s ease;
+}
+
+.sidebar .nav_links {
+  position: relative;
+  top: 12px;
+  padding: 15px;
+  overflow: auto;
+}
+.sidebar .nav-links::-webkit-scrollbar {
+  display: none;
+}
+.sidebar .nav_links li {
+  position: relative;
+  margin-bottom: 20px;
+  list-style: none;
+  transition: all 0.4s ease;
+}
+.sidebar .nav_links li a .link_name {
+  font-size: 15px;
+  font-weight: 400;
+  color: #cccccc;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+.sidebar .nav_links li a .link_name:hover {
+  color: #ffffff;
+}
+.home_section {
+  position: relative;
+  background: #dbdfe9;
+  height: 440px;
+  left: 160px;
+  border: solid 1px;
+  width: calc(100% - 160px);
+  transition: all 0.5s ease;
+}
+.home_section .home_content {
+  height: 50px;
+}
+.home_section .home_content h4 {
+  position: relative;
+  top: 20px;
+  left: 50px;
+  color: #000;
+  font-size: 26px;
+  font-weight: 600;
+}
+.zone1 {
+  position: relative;
+  top: 20px;
+  left: 70px;
+  display: flex;
+  gap: 50px;
+}
+.text {
+  position: relative;
+  left: 50px;
+  color: #585c68;
+}
+.zone2 {
+  position: relative;
+  top: 10px;
+  left: 50px;
+  width: 480px;
+  height: 250px;
+  border: 1px solid black;
+}
+.zone3 {
+  position: relative;
+  top: 5px;
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+}
+.zone4 {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  gap: 105px;
+  bottom: 30px;
+}
+.ligne {
+  position: relative;
+  left: 50px;
+  top: 6px;
+  width: 84%;
+  border: 1px solid black;
+}
+.ligne2 {
+  position: relative;
+  left: 20px;
+  bottom: 22px;
+  width: 90%;
+  border: 1px solid black;
+}
+
+/****************************CheckBox*******************************/
+
+.wrapper {
+  width: 500px;
+  margin: 20px auto 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 70px;
+}
+
+.container .option_item {
+  display: block;
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+}
+
+.container .option_item .checkbox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  opacity: 0;
+}
+
+.option_item .option_inner {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  border-radius: 5px;
+  text-align: center;
+  padding: 18px 0px;
+  cursor: pointer;
+  color: #585c68;
+  display: block;
+  border: 5px solid transparent;
+  position: relative;
+}
+
+.option_item .option_inner .icon {
+  margin-bottom: 10px;
+}
+
+.option_item .option_inner .icon .fab {
+  font-size: 70px;
+}
+
+.option_item .option_inner .name {
+  user-select: none;
+}
+
+.option_item .checkbox:checked ~ .option_inner.facebook {
+  border-color: #3b5999;
+  color: #3b5999;
+}
+
+.option_item .checkbox:checked ~ .option_inner.twitter {
+  border-color: #55acee;
+  color: #55acee;
+}
+
+.option_item .checkbox:checked ~ .option_inner.instagram {
+  border-color: rgb(255, 145, 0);
+  color: #e66f00;
+}
+.option_item .checkbox:checked ~ .option_inner.whatsup {
+  border-color: #25d366;
+  color: #25d366;
+}
+.option_item .option_inner .tickmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 20px solid;
+  border-color: #000 transparent transparent #000;
+  display: none;
+}
+
+.option_item .option_inner .tickmark:before {
+  content: "";
+  position: absolute;
+  top: -18px;
+  left: -18px;
+  width: 15px;
+  height: 5px;
+  border: 3px solid;
+  border-color: transparent transparent #fff #fff;
+  transform: rotate(-45deg);
+}
+
+.option_item .checkbox:checked ~ .option_inner .tickmark {
+  display: block;
+}
+
+.option_item .option_inner.facebook .tickmark {
+  border-color: #3b5999 transparent transparent #3b5999;
+}
+
+.option_item .option_inner.twitter .tickmark {
+  border-color: #55acee transparent transparent #55acee;
+}
+
+.option_item .option_inner.instagram .tickmark {
+  border-color: rgb(255, 145, 0) transparent transparent rgb(255, 145, 0);
+}
+.option_item .option_inner.whatsup .tickmark {
+  border-color: #25d366 transparent transparent #25d366;
+}
+.search1 {
+  width: 130px;
+  height: 80px;
+  background: transparent url("/france.png") no-repeat 7px;
+}
+.search2 {
+  width: 125px;
+  height: 80px;
+  background: transparent url("/flag.png") no-repeat 13px;
+}
+.search3 {
+  width: 128px;
+  height: 80px;
+  background: transparent url("/uk.png") no-repeat 7px;
+}
+/****************************switch toggle***************************/
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px; /* 3rem * 16px */
+  height: 20px; /* 1.5rem * 16px */
+}
+.input {
+  display: none;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 0, 0, 0.377);
+  transition: 0.4s;
+  border-radius: 9999px;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px; /* 1.6rem * 16px */
+  width: 20px; /* 1.6rem * 16px */
+  left: calc(20px - 20px); /* (1.5rem - 1.6rem) * 16px */
+  top: calc(20px - 20px); /* (1.5rem - 1.6rem) * 16px */
+  background-color: rgba(255, 255, 255, 1);
+  transition: 0.4s;
+  border: 1px solid rgba(100, 116, 139, 0.527);
+  border-radius: 9999px;
+  box-shadow: 0 3px 10px rgba(100, 116, 139, 0.327);
+}
+.input:checked + .slider {
+  background-color: rgba(0, 128, 0, 1);
+}
+.input:focus + .slider {
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
+}
+.input:checked + .slider:before {
+  transform: translateX(100%);
+  border-color: rgba(0, 128, 0, 1);
+}

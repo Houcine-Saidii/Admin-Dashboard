@@ -1,0 +1,212 @@
+.darkBG {
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  position: fixed;
+}
+.centered {
+  position: fixed;
+  top: 51%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 200;
+}
+.modal {
+  width: 748px;
+  height: 555px;
+  background: white;
+  color: white;
+}
+.modalHeader {
+  height: 40px;
+  overflow: hidden;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+.heading {
+  margin: 0;
+  padding: 10px;
+  color: #2c3e50;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: left;
+  font: normal normal bold 16px/21px Segoe UI;
+  letter-spacing: 0px;
+  color: #000000;
+  text-transform: uppercase;
+  opacity: 1;
+}
+.modalContent {
+  padding: 10px;
+  font-size: 14px;
+  height: 800px;
+  color: #2c3e50;
+}
+.modalContent span {
+  font: normal normal 16px/21px Segoe UI;
+  font-size: 16px;
+  padding: 10px;
+}
+.zone {
+  width: 730px;
+  height: 440px;
+  background: #f5f5f5 0% 0% no-repeat padding-box;
+  border: 1px solid #c5c5c5;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.zoneContent {
+  overflow-y: auto;
+  flex-grow: 1;
+}
+.head {
+  border-bottom: 1px solid #c5c5c5;
+  height: 50px;
+  width: 729px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ouvferm {
+  display: flex;
+  align-items: center;
+}
+.zone1 {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
+.ajouter {
+  display: flex;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 15px;
+  background: #323333 0% 0% no-repeat padding-box;
+  border: 1px solid #e6e6e6;
+  opacity: 1;
+  position: relative;
+  bottom: 30px;
+  width: 100%;
+}
+.ajouter a {
+  text-align: left;
+  font: normal normal bold 15px/21px Segoe UI;
+  letter-spacing: 0px;
+  color: #fffbfb;
+  text-transform: uppercase;
+  opacity: 1;
+  text-decoration: none;
+}
+
+.ajouter i {
+  font-size: 23px;
+  color: #fffbfb;
+}
+.modalActions {
+  position: absolute;
+  bottom: 2px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.actionsContainer {
+  display: flex;
+  justify-content: right;
+  gap: 40px;
+}
+.closeBtn {
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  cursor: pointer;
+  color: #2c3e50;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.deleteBtn {
+  margin-top: 10px;
+  display: relative;
+  cursor: pointer;
+  font: normal normal 600 16px/21px Segoe UI;
+  padding: 11px 28px;
+  border-radius: 12px;
+  border: none;
+  color: #000000;
+  background: #e2e2e2;
+  transition: all 0.25s ease;
+}
+.deleteBtn:hover {
+  box-shadow: none;
+  transform: none;
+  background: #ff3e4e;
+}
+.cancelBtn {
+  margin-top: 10px;
+  margin-right: 20px;
+  cursor: pointer;
+  font: normal normal 600 16px/21px Segoe UI;
+  padding: 11px 28px;
+  border-radius: 12px;
+  border: none;
+  color: #ffffff;
+  background: #000000;
+  transition: all 0.25s ease;
+}
+.cancelBtn:hover {
+  box-shadow: none;
+  transform: none;
+  background: rgb(85, 143, 38);
+}
+/****************************switch toggle***************************/
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px; /* 3rem * 16px */
+  height: 20px; /* 1.5rem * 16px */
+}
+.input {
+  display: none;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 0, 0, 0.377);
+  transition: 0.4s;
+  border-radius: 9999px;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px; /* 1.6rem * 16px */
+  width: 20px; /* 1.6rem * 16px */
+  left: calc(20px - 20px); /* (1.5rem - 1.6rem) * 16px */
+  top: calc(20px - 20px); /* (1.5rem - 1.6rem) * 16px */
+  background-color: rgba(255, 255, 255, 1);
+  transition: 0.4s;
+  border: 1px solid rgba(100, 116, 139, 0.527);
+  border-radius: 9999px;
+  box-shadow: 0 3px 10px rgba(100, 116, 139, 0.327);
+}
+.input:checked + .slider {
+  background-color: rgba(0, 128, 0, 1);
+}
+.input:focus + .slider {
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
+}
+.input:checked + .slider:before {
+  transform: translateX(100%);
+  border-color: rgba(0, 128, 0, 1);
+}
