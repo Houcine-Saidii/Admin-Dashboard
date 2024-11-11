@@ -10,8 +10,24 @@ export default function Login() {
   const [error, setError] = useState("");
   const router = useRouter();
 
+  // Default admin credentials
+  const defaultAdmin = {
+    email: "admin@example.com",
+    password: "admin123"
+  };
+
   const handleLogin = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+
+    // Check if default admin credentials are used
+    if (email === defaultAdmin.email && password === defaultAdmin.password) {
+      // Simulate setting a token for the admin
+      localStorage.setItem('token', 'default-admin-token');
+      router.push('/home');
+      return;
+    }
+
+    // Fallback to backend authentication for other users
     try {
       const response = await fetch("http://localhost:3001/auth/login", {
         method: "POST",
