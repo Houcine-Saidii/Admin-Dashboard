@@ -3,11 +3,10 @@
 ![ezgif com-animated-gif-maker](https://github.com/user-attachments/assets/8fff6cba-32ae-42c1-8f17-ce3bf775fa24)
 
 
-  
   ## Description 
 
-This is the context of our design and development project an administrator Dashboard for Restaurants Interactive kiosk. This Dashboard aims to simplify the management and configuration of kiosks tactiles for the points of sale, offering shop management functionalities, Orders, catalogues and applications
-using (NextJS, NodeJS, NestJS, Postgresql)
+This is the context of our design and development project an administrator Dashboard for Restaurants Interactive kiosk. This Dashboard aims to simplify the management and configuration of kiosks tactiles for the points of sale, offering shop management functionalities, Orders, catalogues and applications using (NextJS, NodeJS, NestJS, Postgresql)
+
   ## Table of Contents
   * [Features](#features)
   * [Frontend](#frontend)
