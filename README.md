@@ -14,11 +14,11 @@ This is the context of our design and development project an administrator Dashb
   * [License](#license)
   
   ## Gallery
-<img src="https://github.com/user-attachments/assets/8d1ab192-a7f1-40e7-b2c0-2d7dabe8d286" width="18%">
-<img src="https://github.com/user-attachments/assets/b1505877-b52a-468b-9f64-cad7b36cb655" width="18%">
+<img src="https://github.com/user-attachments/assets/8d1ab192-a7f1-40e7-b2c0-2d7dabe8d286" width="10%">
+<img src="https://github.com/user-attachments/assets/b1505877-b52a-468b-9f64-cad7b36cb655" width="13%">
 <img src="https://github.com/user-attachments/assets/e0b7e430-9b6d-487f-a514-808d566bc8c7" width="18%">
-<img src="https://github.com/user-attachments/assets/43bbcf92-b288-4e96-bd95-9d8e15128b56" width="18%"><br/>
-<img src="https://github.com/user-attachments/assets/862b24c8-2f60-4b02-a1c5-ccbedc490a32" width="18%">
+<img src="https://github.com/user-attachments/assets/43bbcf92-b288-4e96-bd95-9d8e15128b56" width="21%"><br/>
+<img src="https://github.com/user-attachments/assets/862b24c8-2f60-4b02-a1c5-ccbedc490a32" width="20%">
 <img src="https://github.com/user-attachments/assets/a9a7a8fe-ae68-47da-8dd9-b432dbae5b2d" width="18%">
 <img src="https://github.com/user-attachments/assets/85b624a5-5987-40d7-8ab4-5f64a0b30fb9" width="18%">
 <img src="https://github.com/user-attachments/assets/adb90901-4551-404e-9829-0c96a8dde624" width="18%"><br/>
